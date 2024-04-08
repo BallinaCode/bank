@@ -1,0 +1,107 @@
+* {
+    transition: all .3s linear;
+    font-family: 'Dosis';
+}
+
+.banks{
+    width: 200%;
+    height: 100vh;
+    display: flex;
+    overflow-y: hidden;
+}
+
+.banks-form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.banks-new {
+    border: 1px solid gainsboro;
+    margin: auto;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.banks-list {
+    border: 1px solid gainsboro;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.bank-active-state {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #20c997;
+}
+
+.bank-inactive-state {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #727272;
+}
+
+.bank {
+    display: flex;
+    align-items: last baseline;
+    justify-content: start;
+    border-top: 1px solid gainsboro;
+    width: 95%;
+    padding: 10px 0px;
+}
+
+.ma-le {
+    margin-left: 20px !important;
+}
+
+table>tbody>tr>td {
+    padding: 1em;
+}
+
+table {
+    width: 100%;
+    /* max-width: 520px; */
+    max-height: 270px;
+    overflow-y: auto;
+    display: inline-block;
+}
+
+.mr-5{
+    margin-right: 6em;
+}
+
+.ml-5{
+    margin-left: 6em;
+}
+/* .to-clientes {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(96, 21, 194);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; 
+    border-radius: 20px;
+    margin-right: 100px;
+}
+
+.rot {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.to-clientes:hover {
+    background-color: rgb(127, 29, 255);
+} */
