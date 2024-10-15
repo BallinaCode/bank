@@ -1,5 +1,5 @@
 
-# Bank App
+# Angular Bank
 
 ## Overview
 
@@ -27,7 +27,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/JeyPi-Official/bank.git
+   git clone https://github.com/JeyPi-Official/Angular-Bank.git
    ```
 2. **Navigate to the project directory**
    ```bash
@@ -74,6 +74,3 @@ Contributions are welcome! To contribute:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
-This version gives a clear and organized overview of the **Bank** app's features and setup instructions. Let me know if you'd like any adjustments!
