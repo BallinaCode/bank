@@ -1,29 +1,79 @@
-# Bank
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+# Bank App
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A modern mobile banking app built using Flutter. This app provides essential banking features like account management, transaction tracking, and a clean, intuitive user interface for a smooth financial experience.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Account Overview**: Manage multiple accounts and view balances.
+- **Transaction History**: Track your spending and income with detailed transaction history.
+- **Transfer Funds**: Easily transfer money between accounts.
+- **User-Friendly UI**: Clean and intuitive design for an optimal user experience.
+- **Secure**: Implements secure authentication and data encryption.
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Follow these steps to set up the project locally:
 
-## Running unit tests
+### Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) (v3.x or higher)
+- Android Studio, VSCode, or any preferred IDE with Flutter support
+- A connected device or emulator
 
-## Running end-to-end tests
+### Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/JeyPi-Official/bank.git
+   ```
+2. **Navigate to the project directory**
+   ```bash
+   cd bank
+   ```
+3. **Install the dependencies**
+   ```bash
+   flutter pub get
+   ```
 
-## Further help
+4. **Run the app**
+   ```bash
+   flutter run
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Folder Structure
 
-![image](https://github.com/JeyPi-Official/bank/assets/61365674/21066f8d-f9ec-4fbd-a48d-9a7619f6b667)
+```bash
+lib/
+|-- models/               # Data models
+|-- screens/              # UI screens for different features
+|-- widgets/              # Reusable UI components
+|-- services/             # Backend services for data and authentication
+|-- main.dart             # Entry point of the application
+```
+
+## Key Features
+
+- **Authentication**: Secure login with user credentials.
+- **Transaction Management**: View and manage recent transactions.
+- **Money Transfers**: Transfer funds between accounts.
+- **Custom Widgets**: Reusable components for a consistent UI.
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a pull request
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+This version gives a clear and organized overview of the **Bank** app's features and setup instructions. Let me know if you'd like any adjustments!
