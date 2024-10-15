@@ -1,17 +1,15 @@
 
 # Angular Bank
 
-## Overview
-
-A modern mobile banking app built using Flutter. This app provides essential banking features like account management, transaction tracking, and a clean, intuitive user interface for a smooth financial experience.
+A comprehensive banking web application built with Angular. This project showcases a modern, responsive UI and key banking features, such as account management, transaction history, and secure fund transfers. It leverages Angular’s powerful framework to deliver a smooth and efficient user experience.
 
 ## Features
 
-- **Account Overview**: Manage multiple accounts and view balances.
-- **Transaction History**: Track your spending and income with detailed transaction history.
-- **Transfer Funds**: Easily transfer money between accounts.
-- **User-Friendly UI**: Clean and intuitive design for an optimal user experience.
-- **Secure**: Implements secure authentication and data encryption.
+- **Account Management**: View and manage multiple bank accounts.
+- **Transaction History**: Access detailed transaction records.
+- **Fund Transfers**: Securely transfer money between accounts.
+- **Responsive Design**: Works seamlessly on various screen sizes.
+- **Authentication**: User login with secure authentication.
 
 ## Getting Started
 
@@ -19,9 +17,9 @@ Follow these steps to set up the project locally:
 
 ### Prerequisites
 
-- [Flutter SDK](https://flutter.dev/docs/get-started/install) (v3.x or higher)
-- Android Studio, VSCode, or any preferred IDE with Flutter support
-- A connected device or emulator
+- [Node.js](https://nodejs.org/en/download/) (v14.x or higher)
+- [Angular CLI](https://angular.io/guide/setup-local)
+- A modern browser (Chrome, Firefox, etc.)
 
 ### Installation
 
@@ -31,35 +29,40 @@ Follow these steps to set up the project locally:
    ```
 2. **Navigate to the project directory**
    ```bash
-   cd bank
+   cd Angular-Bank
    ```
 3. **Install the dependencies**
    ```bash
-   flutter pub get
+   npm install
    ```
 
 4. **Run the app**
    ```bash
-   flutter run
+   ng serve
    ```
+
+5. **Open in Browser**
+   Navigate to `http://localhost:4200` in your web browser to view the app.
 
 ## Folder Structure
 
 ```bash
-lib/
-|-- models/               # Data models
-|-- screens/              # UI screens for different features
-|-- widgets/              # Reusable UI components
-|-- services/             # Backend services for data and authentication
-|-- main.dart             # Entry point of the application
+src/
+|-- app/
+|   |-- components/       # UI components
+|   |-- services/         # Backend interaction and APIs
+|   |-- models/           # Data models for banking features
+|   |-- app.module.ts     # Main Angular module
+|-- assets/               # Static assets like images and styles
+|-- environments/         # Environment configurations
 ```
 
-## Key Features
+## Key Technologies
 
-- **Authentication**: Secure login with user credentials.
-- **Transaction Management**: View and manage recent transactions.
-- **Money Transfers**: Transfer funds between accounts.
-- **Custom Widgets**: Reusable components for a consistent UI.
+- **Angular**: For the frontend framework and app logic.
+- **RxJS**: For managing asynchronous operations and data streams.
+- **Bootstrap**: For responsive design and layout.
+- **Node.js**: For managing package dependencies and build tools.
 
 ## Contributing
 
